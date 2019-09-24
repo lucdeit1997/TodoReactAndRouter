@@ -5,7 +5,6 @@ export class Table extends Component {
   render() {
     let { handleRemove } = this.props
     return (
-      <div className="row">
         <div className="container-fluid">
           <table className="table mt-3 table-bordered">
             <thead>
@@ -30,9 +29,11 @@ export class Table extends Component {
                     <td>{item.email}</td>
                     <td>{item.address}</td>
                     <td>
-                        <button className="btn btn-info pl-5 pr-5">
-                            <Link to={`/update/${item.id}`}>Sua</Link>
-                        </button>
+                        <Link to={`/update/${item.id}`}>
+                          <button className="btn btn-info pl-5 pr-5">
+                              Sua
+                          </button>
+                        </Link>
                         <button className="btn btn-danger pl-5 pr-5 ml-1" onClick= { () => handleRemove(item.id) } >xoa</button>
                     </td>
                   </tr>
@@ -42,7 +43,6 @@ export class Table extends Component {
           </table>
           <div></div>
         </div>
-      </div>
     );
   }
 }

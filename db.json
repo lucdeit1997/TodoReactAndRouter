@@ -3,23 +3,16 @@
     {
       "name": "Phan Văn Đệ",
       "gender": "1",
-      "email": "phamnguyenchuong12a1cl@gmail.com",
+      "email": "dephan.dev@gmail.com",
       "address": "Tây Ninh",
       "id": 1
     },
     {
       "name": "Huynh vinh",
       "gender": "1",
-      "email": "phamnguyenchuong12a1cl@gmail.com",
+      "email": "lucdeit1997@gmail.com",
       "address": "Tây Ninh",
       "id": 2
-    },
-    {
-      "name": "Nguyen Tan Canh",
-      "gender": "1",
-      "email": "dephan.dev@gmail.com",
-      "address": "TPHCM",
-      "id": 3
     }
   ]
 }
